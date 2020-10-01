@@ -1,0 +1,72 @@
+<!Doctype html>
+<html>
+<head>
+<title> Register </title>
+</head>
+<body>
+<h1> Register Form </h1>
+<form>
+	<label for="name"> first name </label>
+	<input name="firstname" id="firstname" type="text" placeholder="firstname" required>
+	<label for="last name"> lastname </label>
+	<input name="lastname" id="lastname" type="text" placeholder="lastname" required>
+	<div>
+	    <label for="gender"> gender </label>
+	    <label for="male"> male </label>
+	     <input name="gender" id="male" type="radio" value="male"
+		<label for="female"> female </label>
+		 <input name="gender" id="female" type="radio" value="female">
+		<label for="others"> others </label>
+		 <input name="gender" id="other" type="radio" value="other">
+	</div>
+	<label for="email"> email </label>
+	<input name="email" id="email" type="email" required>
+	<label for="password"> password </label>
+	<input pattern=".{5,10}" required title="password should be given">
+	<div>
+		<label>
+			Birthday:
+			<select name="month">
+				<option> month </option>
+				<option> january </option>
+				<option> feb </option>
+				<option> march </option>
+				<option> april </option>
+				<option> may </option>
+			</select>
+			<select month="day">
+				<option> day </option>
+				<option> 1 </option>
+                <option> 2 </option>
+                <option> 3 </option>
+                <option> 4 </option>
+                <option> 5 </option>
+                <option> 6 </option>
+                <option> 7 </option>
+                <option> 8 </option>
+                <option> 9 </option>
+                <option> 10 </option>
+                <option> 11 </option>
+                <option> 12 </option>
+                <option> 13 </option>
+                <option> 14 </option>
+                <option> 15 </option>
+                <option> 16 </option>
+                <option> 17 </option>
+			</select>
+			<select month="year">
+				<option> 1995 </option>
+				<option> 1996 </option>
+				<option> 1997 </option>
+				<option> 1998 </option>
+				<option> 1999 </option>
+				<option> 2000 </option>
+			</select>
+		</label>
+		<div>
+			<button> submit </button>
+		</div>
+	</div>
+</form>
+</body>
+</html>
